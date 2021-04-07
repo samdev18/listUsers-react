@@ -19,12 +19,11 @@ const UserList = ({ ...props }) => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-
                     {props.userList.map((record, index) => {
                         return(
                         <TableRow key={index}>
                             <TableCell component="th" scope="row">
-                                {record.name}
+                                {record.name ?? 'Nothing was found'}
                             </TableCell>
                             <TableCell component="th" scope="row">
                                 {record.address}

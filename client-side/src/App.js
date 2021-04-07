@@ -11,7 +11,7 @@ function App() {
     <Container max-width="lg">
       <AppBar position="static" color="inherit">
         <Typography variant="h2" align="center">
-        Test
+          Users list
         </Typography>
       </AppBar>
       <Grid container item alignItems="center" justify="space-between" style={{minHeight:'80vh'}} direction="column">
