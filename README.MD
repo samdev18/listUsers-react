@@ -1,3 +1,11 @@
+#Instructions:
+   - clone the repository
+   - open server-side and use "npm install" command to install the dependencies
+      - use "npm start" to start the server
+   - open client-side folder and use "npm install" command to install the dependencies
+      - use "npm start to start the client" 
+
+# The goal
 given the following array of users:
 
 [
