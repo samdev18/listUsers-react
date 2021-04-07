@@ -1,3 +1,5 @@
+once you have node and npm installed on your computer, follow the instructions
+
 # Instructions:
    - clone the repository
    - open server-side folder using your terminal and use "npm install" command to install the dependencies
