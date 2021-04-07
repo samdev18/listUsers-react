@@ -23,7 +23,7 @@ const UserList = ({ ...props }) => {
                         return(
                         <TableRow key={index}>
                             <TableCell component="th" scope="row">
-                                {record.name ?? 'Nothing was found'}
+                                {record.name}
                             </TableCell>
                             <TableCell component="th" scope="row">
                                 {record.address}

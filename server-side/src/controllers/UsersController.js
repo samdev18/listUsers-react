@@ -38,7 +38,7 @@ module.exports = {
     },
     searchByName: (req, res) => {
         try {
-            res.json(users.find(user => user.name.toLowerCase().includes(req.params.name.toLowerCase())))
+            res.json(users.filter(user => user.name.toLowerCase().includes(req.params.name.toLowerCase())))
         } catch (error) {
             res.json({ error })
         }
